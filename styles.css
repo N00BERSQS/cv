@@ -1,0 +1,206 @@
+/* JUST BROKEN 
+@media screen and  (max-width:426px) {
+
+body {
+   padding: 0px;
+   margin-bottom: 15px;
+   font-family: 'Chivo Mono', monospace;
+
+   background-position: left;
+}
+
+.b {
+
+background: linear-gradient(344deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 68%); 
+   width: 93%;
+  height: 2560px;
+   margin-left:  auto;
+   margin-right: auto;
+   border-radius: 12px;
+   margin-top: 1%;
+
+   padding-bottom: 0px;
+
+   min-width:fit-content;
+   display: flex;
+   flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+
+   
+}
+
+.yuno {
+    margin-top: 100%;
+   width: 170px;
+   border-radius: 12px;
+   order: 0;
+
+
+   
+}
+
+h1 {padding-left: 15px;
+align-self: center;
+white-space:nowrap;
+order: 0
+
+
+
+}
+.ico {
+  min-width: 40px;
+  max-width:50px;
+  padding-right: 7px;
+}
+.soc {
+
+   padding: 0;
+   padding-bottom: 10px;
+   padding-top: 5%;
+   width: 200px;
+
+
+}
+.li {
+
+   list-style: none;
+   padding-left: 30px;
+   order: 0;
+   justify-self: flex-start;
+   
+   
+}
+h3 {
+
+   padding: 0px;
+
+   
+
+
+}
+.edu {
+
+   list-style: none;
+   padding-left: 5px;
+}
+.lan {
+
+   list-style: none;
+   padding-left: 5px;
+}
+
+
+
+
+
+
+.about-me{
+
+}
+.lan{
+    padding-bottom: 120px;
+}
+}
+
+*/
+
+body {
+   padding: 0;
+   margin: 0;
+   font-family: 'Chivo Mono', monospace;
+background-image: url(/Matrix\ -\ 27693\ \(1\).gif);
+background-repeat: repeat;
+   background-position: center;
+
+}
+
+.b {
+
+background: linear-gradient(344deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 68%); 
+   width: 80%;
+   height: auto;
+   margin-left:  auto;
+   margin-right: auto;
+   border-radius: 12px;
+   margin-top: 5%;
+   display: grid;
+   grid-template-columns: 170px 305px 1fr 1fr 1fr;
+   grid-template-rows: 190px 170px 50px;
+   padding-bottom: 0px;
+   padding-left: 15px;
+   padding-top: 15px;
+   min-width:fit-content;
+   padding-right: 15px;
+   column-gap: 25px;
+   
+}
+
+.yuno {
+   width: 170px;
+   border-radius: 12px;
+}
+h1 {padding-left: 15px;
+align-self: end;
+white-space:nowrap;
+
+
+
+}
+.ico {
+  min-width: 40px;
+  max-width:50px;
+  padding-right: 7px;
+}
+.soc {
+   align-self: flex-end;
+   grid-column: 1 / span 2;
+   grid-row: 3;
+   padding: 0;
+   padding-bottom: 7px;
+
+
+}
+.li {
+   grid-column: 3;
+      align-self: flex-start;
+   justify-self: center;
+   grid-row:2;
+   list-style: none;
+   padding-left: 30px;
+   
+   
+}
+h3{
+   align-self: flex-end;
+   justify-self: center;
+   padding: 0px;
+   
+
+
+}
+.edu {
+      grid-column: 4;
+      align-self: flex-start;
+   justify-self: center;
+   grid-row:2;
+   list-style: none;
+   padding-left: 5px;
+}
+.lan {
+         grid-column: 5;
+      align-self: flex-start;
+   justify-self: center;
+   grid-row:2;
+   list-style: none;
+   padding-left: 5px;
+}
+
+
+
+
+
+
+.about-me{
+   grid-column: 1 / span 2;
+}
